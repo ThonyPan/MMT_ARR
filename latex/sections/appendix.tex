@@ -1,0 +1,43 @@
+\section{Theoretical Analysis}
+
+\subsection{Unbiasedness of MMT Loss Estimator}
+\label{app:unbiased}
+
+We prove that the MMT training objective is an unbiased estimator of the BDLM objective. Recall that the BDLM loss for a single sample $\mathbf{x}$ is:
+\begin{equation}
+    \mathcal{L}_{\text{BDLM}}(\mathbf{x}) = -\mathbb{E}_{t, \mathbf{x}^t} \left[ \frac{1}{t} \sum_{i=1}^N \mathbbm{1}[x_i^t = \mathtt{M}] \log p_{\theta}(x_i \mid \mathbf{b}_{<block(i)}, \mathbf{b}_{block(i)}^t) \right],
+\end{equation}
+where the expectation is over the noise level $t \sim \mathcal{U}(0,1)$ and the stochastic masking process.
+
+\begin{theorem}[Unbiasedness]
+\label{thm:unbiased}
+Let $\{t_k\}_{k=1}^K$ be $K$ i.i.d. samples from $\mathcal{U}(0,1)$, and let $\{\mathbf{x}^{t_k}\}_{k=1}^K$ be the corresponding independently corrupted sequences. Then:
+\begin{equation}
+    - \mathbb{E}_{\{t_k\}, \{\mathbf{x}^{t_k}\}} \left[ \frac{1}{K} \sum_{k=1}^K \frac{1}{t_k} \sum_{i=1}^N \mathbbm{1}[x_i^{t_k} = \mathtt{M}] \log p_{\theta}(x_i \mid \mathbf{b}_{<block(i)}, \mathbf{b}_{block(i)}^{t_k}) \right] = \mathcal{L}_{\text{BDLM}}(\mathbf{x}).
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Define the per-perturbation loss:
+\begin{equation}
+    \ell_k(\mathbf{x}) \triangleq -\frac{1}{t_k} \sum_{i=1}^N \mathbbm{1}[x_i^{t_k} = \mathtt{M}] \log p_{\theta}(x_i \mid \mathbf{b}_{<block(i)}, \mathbf{b}_{block(i)}^{t_k}).
+\end{equation}
+By linearity of expectation:
+\begin{equation}
+    \mathbb{E}\left[ \frac{1}{K} \sum_{k=1}^K \ell_k(\mathbf{x}) \right] = \frac{1}{K} \sum_{k=1}^K \mathbb{E}[\ell_k(\mathbf{x})].
+\end{equation}
+Since each $(t_k, \mathbf{x}^{t_k})$ is sampled from the same distribution as $(t, \mathbf{x}^t)$ in BDLM:
+\begin{equation}
+    \mathbb{E}[\ell_k(\mathbf{x})] = \mathbb{E}_{t, \mathbf{x}^t}[\ell(\mathbf{x})] = \mathcal{L}_{\text{BDLM}}(\mathbf{x}), \quad \forall k \in \{1, \ldots, K\}.
+\end{equation}
+Therefore:
+\begin{equation}
+    \mathbb{E}\left[ \frac{1}{K} \sum_{k=1}^K \ell_k(\mathbf{x}) \right] = \frac{1}{K} \cdot K \cdot \mathcal{L}_{\text{BDLM}}(\mathbf{x}) = \mathcal{L}_{\text{BDLM}}(\mathbf{x}).
+\end{equation}
+\end{proof}
+
+\begin{remark}
+The key observation is that MMT does not introduce any bias—it simply uses $K$ Monte Carlo samples to estimate the same expected loss as BDLM. The samples share the same clean context $\mathbf{x}$, but each mask pattern is sampled independently, preserving the unbiasedness property.
+\end{remark}
+
+However, this comparison is misleading because BDLM requires $K$ forward passes while MMT only requires 1 forward pass (with efficient context sharing). When computational cost is properly accounted for, MMT achieves better variance-to-compute ratio by reducing mask noise through averaging, while maintaining training efficiency via context reuse.

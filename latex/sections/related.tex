@@ -1,0 +1,29 @@
+\section{Related Work}
+
+\subsection{Diffusion Language Models}
+Diffusion models have achieved remarkable success in continuous domains such as image and audio generation~\citep{sohl2015deep,ddpm,song2020score,dit}.
+Recently, there has been growing interest in adapting diffusion-based methods to discrete text generation. Mercury~\citep{mercury}, Seed Diffusion~\citep{seeddiffusion}, and Gemini Diffusion~\citep{geminidiffusion} are industry-developed diffusion language models that demonstrate ultra-fast inference capabilities.
+In the open-source community, early methods~\citep{li2022diffusion,lovelace2023latent,gong2022diffuseq,han2023ssd,strudel2022self,chen2022analog} applies continious space diffusion directly to language,
+while more recent methods~\citep{hoogeboom2021argmax,hoogeboomautoregressive,he2023diffusionbert,loudiscrete,ou2024your,sahoo2024simple} leverage discrete diffusion to achieve better scalability and performance.
+In this paper, we mainly focus on the discrete version, also known as \textbf{masked diffusion language models}.
+LLaDA~\citep{llada} trains an 8B-scale masked diffusion language model from scratch, demonstrating competitive performance with autoregressive counterparts.
+DREAM~\citep{dream} adapts pre-trained autoregressive models into diffusion language models through continued training.
+These methods offer a promising alternative to autoregressive generation by enabling parallel token sampling, but they typically generate sequences of fixed length and lack the flexibility of variable-length generation.
+
+\subsection{Block Diffusion Language Models}
+Block Diffusion Language Models bridge the gap between autoregressive and diffusion paradigms by decomposing generation into sequential blocks.
+\citet{ma2025dkv,wu2025fast} use approximate KV caching to make a diffusion language model generate block-by-block.
+BD3-LMs~\citep{bd3lms} trains a native block diffusion language model from scratch.
+Fast-DLLM v2~\citep{fastdllmv2} and SDAR~\citep{sdar} adapt pre-trained autoregressive models into block diffusion models, enabling efficient conversion of existing AR checkpoints.
+LLaDA 2.0~\citep{llada2} scales block diffusion language models up to 100B parameters, demonstrating the scalability of this approach.
+These models support variable-length generation, enable KV caching across blocks, and allow parallel token sampling within each block.
+However, their training suffers from low computational utilization due to the context duplication, which our method addresses.
+
+\subsection{Data Efficiency of Diffusion Language Models}
+Recent studies~\citep{prabhudesaidiffusion,ni2025diffusion,ni2025training} have revealed that diffusion language models are ``super data learners'' that can extract more information from the same amount of training data through diverse mask patterns.
+Another related approach is \emph{complementary masking}~\citep{fastdllmv2}, which uses an inverted mask paired with a standard mask to enhance data utilization.
+However, these methods suffer from efficiency drawbacks.
+The former relies on implicit accumulation of diversity over repeated epochs with single-mask sampling,
+while the latter doubles the batch size and processes each perturbation independently, failing to exploit the shared clean context.
+In contrast, our method transforms this implicit benefit into an explicit, efficient training strategy.
+By processing multiple mask patterns simultaneously with \textbf{context sharing}, we actively enforce diverse supervision within each step while eliminating the computational waste of encoding the same context repeatedly.

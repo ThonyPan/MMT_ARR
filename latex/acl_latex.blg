@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: acl_latex.aux
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: custom.bib
+Warning--I didn't find a database entry for "qwen2.5"
+Warning--can't use both volume and number fields in piqa
+You've used 55 entries,
+            3764 wiz_defined-function locations,
+            989 strings with 21528 characters,
+and the built_in function-call counts, 57397 in all, are:
+= -- 4403
+> -- 4568
+< -- 25
++ -- 1916
+- -- 1499
+* -- 4378
+:= -- 8649
+add.period$ -- 222
+call.type$ -- 55
+change.case$ -- 860
+chr.to.int$ -- 64
+cite$ -- 56
+duplicate$ -- 2932
+empty$ -- 3047
+format.name$ -- 1647
+if$ -- 11760
+int.to.chr$ -- 5
+int.to.str$ -- 15
+missing$ -- 760
+newline$ -- 280
+num.names$ -- 220
+pop$ -- 2174
+preamble$ -- 1
+purify$ -- 756
+quote$ -- 0
+skip$ -- 2740
+stack$ -- 0
+substring$ -- 1301
+swap$ -- 1651
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 495
+warning$ -- 1
+while$ -- 213
+width$ -- 0
+write$ -- 690
+(There were 2 warnings)

@@ -1,0 +1,280 @@
+\begin{thebibliography}{55}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Arriola et~al.(2025)Arriola, Gokaslan, Chiu, Yang, Qi, Han, Sahoo, and Kuleshov}]{bd3lms}
+Marianne Arriola, Aaron Gokaslan, Justin~T Chiu, Zhihan Yang, Zhixuan Qi, Jiaqi Han, Subham~Sekhar Sahoo, and Volodymyr Kuleshov. 2025.
+\newblock Block diffusion: Interpolating between autoregressive and diffusion language models.
+\newblock \emph{arXiv preprint arXiv:2503.09573}.
+
+\bibitem[{Austin et~al.(2021)Austin, Odena, Nye, Bosma, Michalewski, Dohan, Jiang, Cai, Terry, Le et~al.}]{mbpp}
+Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, and 1 others. 2021.
+\newblock Program synthesis with large language models.
+\newblock \emph{arXiv preprint arXiv:2108.07732}.
+
+\bibitem[{Bercovich et~al.(2025)Bercovich, Levy, Golan, Dabbah, El-Yaniv, Puny, Galil, Moshe, Ronen, Nabwani, Shahaf, Tropp, Karpas, Zilberstein, Zeng, Singhal, Bukharin, Zhang, Konuk, Shen, Mahabaleshwarkar, Kartal, Suhara, Delalleau, Chen, Wang, Mosallanezhad, Renduchintala, Qian, Rekesh, Jia, Majumdar, Noroozi, Ahmad, Narenthiran, Ficek, Samadi, Huang, Jain, Gitman, Moshkov, Du, Toshniwal, Armstrong, Kisacanin, Novikov, Gitman, Bakhturina, Scowcroft, Kamalu, Su, Kong, Kliegl, Karimi, Lin, Satheesh, Parmar, Gundecha, Norick, Jennings, Prabhumoye, Akter, Patwary, Khattar, Narayanan, Waleffe, Zhang, Su, Huang, Kong, Chadha, Jain, Harvey, Segal, Huang, Kashirsky, McQueen, Putterman, Lam, Venkatesan, Wu, Nguyen, Kilaru, Wang, Warno, Somasamudramath, Bhaskar, Dong, Assaf, Mor, Argov, Junkin, Romanenko, Larroy, Katariya, Rovinelli, Balas, Edelman, Bhiwandiwalla, Subramaniam, Ithape, Ramamoorthy, Wu, Velury, Almog, Daw, Fridman, Galinkin, Evans, Luna, Derczynski, Pope, Long, Schneider, Siman, Grzegorzek, Ribalta, Katariya, Conway, Saar, Guan, Pawelec, Prayaga, Kuchaiev, Ginsburg, Olabiyi, Briski, Cohen, Catanzaro, Alben, Geifman, Chung, and Alexiuk}]{nemotronpost}
+Akhiad Bercovich, Itay Levy, Izik Golan, Mohammad Dabbah, Ran El-Yaniv, Omri Puny, Ido Galil, Zach Moshe, Tomer Ronen, Najeeb Nabwani, Ido Shahaf, Oren Tropp, Ehud Karpas, Ran Zilberstein, Jiaqi Zeng, Soumye Singhal, Alexander Bukharin, Yian Zhang, Tugrul Konuk, and 114 others. 2025.
+\newblock \href {https://arxiv.org/abs/2505.00949} {Llama-nemotron: Efficient reasoning models}.
+\newblock \emph{Preprint}, arXiv:2505.00949.
+
+\bibitem[{Bie et~al.(2025)Bie, Cao, Chen, Du, Gong, Gong, Gu, Hu, Huang, Lan, Li, Li, Li, Li, Liu, Liu, Lu, Lu, Ma, Tan, Wei, Wen, Xing, Zhang, Zhao, Zheng, Zhou, Zhou, Zhou, Zhu, and Zhuang}]{llada2}
+Tiwei Bie, Maosong Cao, Kun Chen, Lun Du, Mingliang Gong, Zhuochen Gong, Yanmei Gu, Jiaqi Hu, Zenan Huang, Zhenzhong Lan, Chengxi Li, Chongxuan Li, Jianguo Li, Zehuan Li, Huabin Liu, Ling Liu, Guoshan Lu, Xiaocheng Lu, Yuxin Ma, and 12 others. 2025.
+\newblock \href {https://arxiv.org/abs/2512.15745} {Llada 2.0: Scaling up diffusion language models to 100b}.
+\newblock \emph{Preprint}, arXiv:2512.15745.
+
+\bibitem[{Bisk et~al.(2020)Bisk, Zellers, Gao, Choi et~al.}]{piqa}
+Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, and 1 others. 2020.
+\newblock Piqa: Reasoning about physical commonsense in natural language.
+\newblock In \emph{Proceedings of the AAAI conference on artificial intelligence}, volume~34, pages 7432--7439.
+
+\bibitem[{Bommasani et~al.(2021)Bommasani, Hudson, Adeli, Altman, Arora, von Arx, Bernstein, Bohg, Bosselut, Brunskill et~al.}]{foundation-model}
+Rishi Bommasani, Drew~A Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael~S Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, and 1 others. 2021.
+\newblock \href {https://arxiv.org/abs/2023.12345} {On the opportunities and risks of foundation models}.
+\newblock \emph{Preprint}.
+
+\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell et~al.}]{gpt3}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, and 1 others. 2020.
+\newblock Language models are few-shot learners.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~33, pages 1877--1901.
+
+\bibitem[{Chen et~al.(2021)Chen, Tworek, Jun, Yuan, Pinto, Kaplan, Edwards, Burda, Joseph, Brockman et~al.}]{humaneval}
+Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde De~Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, and 1 others. 2021.
+\newblock Evaluating large language models trained on code.
+\newblock \emph{arXiv preprint arXiv:2107.03374}.
+
+\bibitem[{Chen et~al.(2023)Chen, Zhang, and Hinton}]{chen2022analog}
+Ting Chen, Ruixiang Zhang, and Geoffrey Hinton. 2023.
+\newblock Analog bits: Generating discrete data using diffusion models with self-conditioning.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}.
+
+\bibitem[{Chen et~al.(2025)Chen, Wu, Song, Thai, Shen, Han, Liu, and Sun}]{chen-etal-2025-cost}
+Yingfa Chen, Yutong Wu, Chenyang Song, Zhen~Leng Thai, Xingyu Shen, Xu~Han, Zhiyuan Liu, and Maosong Sun. 2025.
+\newblock \href {https://aclanthology.org/2025.emnlp-main.272/} {Cost-optimal grouped-query attention for long-context modeling}.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing}, pages 5360--5376.
+
+\bibitem[{Cheng et~al.(2025)Cheng, Bian, Liu, Zhang, Yao, Tian, Wang, Guo, Chen, Qi et~al.}]{sdar}
+Shuang Cheng, Yihan Bian, Dawei Liu, Linfeng Zhang, Qian Yao, Zhongbo Tian, Wenhai Wang, Qipeng Guo, Kai Chen, Biqing Qi, and 1 others. 2025.
+\newblock Sdar: A synergistic diffusion-autoregression paradigm for scalable sequence generation.
+\newblock \emph{arXiv preprint arXiv:2510.06303}.
+
+\bibitem[{Clark et~al.(2019)Clark, Lee, Chang, Kwiatkowski, Collins, and Toutanova}]{boolq}
+Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. 2019.
+\newblock Boolq: Exploring the surprising difficulty of natural yes/no questions.
+\newblock In \emph{Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, pages 2924--2936.
+
+\bibitem[{Clark et~al.(2018)Clark, Cowhey, Etzioni, Khot, Sabharwal, Schoenick, and Tafjord}]{arc}
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. 2018.
+\newblock Think you have solved question answering? try arc, the ai2 reasoning challenge.
+\newblock \emph{arXiv preprint arXiv:1803.05457}.
+
+\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser, Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman}]{gsm8k}
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. 2021.
+\newblock Training verifiers to solve math word problems.
+\newblock \emph{arXiv preprint arXiv:2110.14168}.
+
+\bibitem[{Dong et~al.(2025)Dong, Feng, Guessous, Liang, and He}]{flexattention}
+Juechu Dong, Boyuan Feng, Driss Guessous, Yanbo Liang, and Horace He. 2025.
+\newblock Flexattention: A programming model for generating fused attention variants.
+\newblock \emph{Proceedings of Machine Learning and Systems}, 7.
+
+\bibitem[{Gong et~al.(2023)Gong, Li, Feng, Wu, and Kong}]{gong2022diffuseq}
+Shansan Gong, Mukai Li, Jiangtao Feng, Zhiyong Wu, and Lingpeng Kong. 2023.
+\newblock Diffuseq: Sequence to sequence text generation with diffusion models.
+\newblock In \emph{The Eleventh International Conference on Learning Representations}.
+
+\bibitem[{{Google DeepMind}(2025)}]{geminidiffusion}
+{Google DeepMind}. 2025.
+\newblock Gemini diffusion.
+\newblock \url{https://blog.google/technology/google-deepmind/gemini-diffusion/}.
+\newblock Accessed: 2026-05-11.
+
+\bibitem[{Han et~al.(2023)Han, Kumar, and Tsvetkov}]{han2023ssd}
+Xiaochuang Han, Sachin Kumar, and Yulia Tsvetkov. 2023.
+\newblock Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 11575--11596.
+
+\bibitem[{Han et~al.(2021)Han, Zhang, Ding, Gu, Liu, Huo, Qiu, Yao, Zhang, Zhang et~al.}]{PTMs-survey}
+Xu~Han, Zhengyan Zhang, Ning Ding, Yuxian Gu, Xiao Liu, Yuqi Huo, Jiezhong Qiu, Yuan Yao, Ao~Zhang, Liang Zhang, and 1 others. 2021.
+\newblock Pre-trained models: Past, present and future.
+\newblock \emph{{AI} Open}, 2:225--250.
+
+\bibitem[{He et~al.(2023)He, Sun, Tang, Wang, Huang, and Qiu}]{he2023diffusionbert}
+Zhengfu He, Tianxiang Sun, Qiong Tang, Kuanning Wang, Xuan-Jing Huang, and Xipeng Qiu. 2023.
+\newblock Diffusionbert: Improving generative masked language models with diffusion models.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 4521--4534.
+
+\bibitem[{Hendrycks et~al.(2021{\natexlab{a}})Hendrycks, Burns, Basart, Zou, Mazeika, Song, and Steinhardt}]{mmlu}
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. 2021{\natexlab{a}}.
+\newblock Measuring massive multitask language understanding.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Hendrycks et~al.(2021{\natexlab{b}})Hendrycks, Burns, Kadavath, Arora, Basart, Tang, Song, and Steinhardt}]{math}
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. 2021{\natexlab{b}}.
+\newblock Measuring mathematical problem solving with the math dataset.
+\newblock In \emph{Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2)}.
+
+\bibitem[{Ho et~al.(2020)Ho, Jain, and Abbeel}]{ddpm}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel. 2020.
+\newblock Denoising diffusion probabilistic models.
+\newblock \emph{Advances in neural information processing systems}, 33:6840--6851.
+
+\bibitem[{Hoogeboom et~al.(2022)Hoogeboom, Gritsenko, Bastings, Poole, van~den Berg, and Salimans}]{hoogeboomautoregressive}
+Emiel Hoogeboom, Alexey~A Gritsenko, Jasmijn Bastings, Ben Poole, Rianne van~den Berg, and Tim Salimans. 2022.
+\newblock Autoregressive diffusion models.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Hoogeboom et~al.(2021)Hoogeboom, Nielsen, Jaini, Forr{\'e}, and Welling}]{hoogeboom2021argmax}
+Emiel Hoogeboom, Didrik Nielsen, Priyank Jaini, Patrick Forr{\'e}, and Max Welling. 2021.
+\newblock Argmax flows and multinomial diffusion: Learning categorical distributions.
+\newblock \emph{Advances in neural information processing systems}, 34:12454--12465.
+
+\bibitem[{Khanna et~al.(2025)Khanna, Kharbanda, Li, Varma, Wang, Birnbaum, Luo, Miraoui, Palrecha, Ermon et~al.}]{mercury}
+Samar Khanna, Siddhant Kharbanda, Shufan Li, Harshit Varma, Eric Wang, Sawyer Birnbaum, Ziyang Luo, Yanis Miraoui, Akash Palrecha, Stefano Ermon, and 1 others. 2025.
+\newblock Mercury: Ultra-fast language models based on diffusion.
+\newblock \emph{arXiv preprint arXiv:2506.17298}, 1.
+
+\bibitem[{Lai et~al.(2017)Lai, Xie, Liu, Yang, and Hovy}]{race}
+Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. 2017.
+\newblock Race: Large-scale reading comprehension dataset from examinations.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}, pages 785--794.
+
+\bibitem[{Li et~al.(2023)Li, Allal, Zi, Muennighoff, Kocetkov, Mou, Marone, Akiki, Li, Chim et~al.}]{starcoder}
+Raymond Li, Loubna~Ben Allal, Yangtian Zi, Niklas Muennighoff, Denis Kocetkov, Chenghao Mou, Marc Marone, Christopher Akiki, Jia Li, Jenny Chim, and 1 others. 2023.
+\newblock Starcoder: may the source be with you!
+\newblock \emph{arXiv preprint arXiv:2305.06161}.
+
+\bibitem[{Li et~al.(2022)Li, Thickstun, Gulrajani, Liang, and Hashimoto}]{li2022diffusion}
+Xiang Li, John Thickstun, Ishaan Gulrajani, Percy~S Liang, and Tatsunori~B Hashimoto. 2022.
+\newblock Diffusion-lm improves controllable text generation.
+\newblock \emph{Advances in neural information processing systems}, 35:4328--4343.
+
+\bibitem[{Lou et~al.(2024)Lou, Meng, and Ermon}]{loudiscrete}
+Aaron Lou, Chenlin Meng, and Stefano Ermon. 2024.
+\newblock Discrete diffusion modeling by estimating the ratios of the data distribution.
+\newblock In \emph{Forty-first International Conference on Machine Learning}.
+
+\bibitem[{Lovelace et~al.(2023)Lovelace, Kishore, Wan, Shekhtman, and Weinberger}]{lovelace2023latent}
+Justin Lovelace, Varsha Kishore, Chao Wan, Eliot Shekhtman, and Kilian~Q Weinberger. 2023.
+\newblock Latent diffusion for language generation.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36:56998--57025.
+
+\bibitem[{Ma et~al.(2025)Ma, Yu, Fang, and Wang}]{ma2025dkv}
+Xinyin Ma, Runpeng Yu, Gongfan Fang, and Xinchao Wang. 2025.
+\newblock dkv-cache: The cache for diffusion language models.
+\newblock \emph{arXiv preprint arXiv:2505.15781}.
+
+\bibitem[{Mihaylov et~al.(2018)Mihaylov, Clark, Khot, and Sabharwal}]{obqa}
+Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018.
+\newblock Can a suit of armor conduct electricity? a new dataset for open book question answering.
+\newblock In \emph{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, pages 2381--2391.
+
+\bibitem[{Ni et~al.(2025{\natexlab{a}})Ni, Liu, Dou, Du, Wang, Yan, Pang, and Shieh}]{ni2025diffusion}
+Jinjie Ni, Qian Liu, Longxu Dou, Chao Du, Zili Wang, Hang Yan, Tianyu Pang, and Michael~Qizhe Shieh. 2025{\natexlab{a}}.
+\newblock Diffusion language models are super data learners.
+\newblock \emph{arXiv preprint arXiv:2511.03276}.
+
+\bibitem[{Ni et~al.(2025{\natexlab{b}})Ni, Liu, Du, Dou, Yan, Wang, Pang, and Shieh}]{ni2025training}
+Jinjie Ni, Qian Liu, Chao Du, Longxu Dou, Hang Yan, Zili Wang, Tianyu Pang, and Michael~Qizhe Shieh. 2025{\natexlab{b}}.
+\newblock Training optimal large diffusion language models.
+\newblock \emph{arXiv preprint arXiv:2510.03280}.
+
+\bibitem[{Nie et~al.(2025{\natexlab{a}})Nie, Zhu, Du, Pang, Liu, Zeng, Lin, and Li}]{smdm}
+Shen Nie, Fengqi Zhu, Chao Du, Tianyu Pang, Qian Liu, Guangtao Zeng, Min Lin, and Chongxuan Li. 2025{\natexlab{a}}.
+\newblock Scaling up masked diffusion models on text.
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}.
+
+\bibitem[{Nie et~al.(2025{\natexlab{b}})Nie, Zhu, You, Zhang, Ou, Hu, Zhou, Lin, Wen, and Li}]{llada}
+Shen Nie, Fengqi Zhu, Zebin You, Xiaolu Zhang, Jingyang Ou, Jun Hu, Jun Zhou, Yankai Lin, Ji-Rong Wen, and Chongxuan Li. 2025{\natexlab{b}}.
+\newblock \href {https://openreview.net/forum?id=KnqiC0znVF} {Large language diffusion models}.
+\newblock In \emph{The Thirty-ninth Annual Conference on Neural Information Processing Systems}.
+
+\bibitem[{OpenAI(2023)}]{gpt4}
+OpenAI. 2023.
+\newblock \href {https://arxiv.org/abs/2303.08774} {{GPT-4} technical report}.
+\newblock \emph{Preprint}.
+
+\bibitem[{Ou et~al.(2025)Ou, Nie, Xue, Zhu, Sun, Li, and Li}]{ou2024your}
+Jingyang Ou, Shen Nie, Kaiwen Xue, Fengqi Zhu, Jiacheng Sun, Zhenguo Li, and Chongxuan Li. 2025.
+\newblock Your absorbing discrete diffusion secretly models the conditional distributions of clean data.
+\newblock In \emph{The Thirteenth International Conference on Learning Representations}.
+
+\bibitem[{Paperno et~al.(2016)Paperno, Kruszewski, Lazaridou, Pham, Bernardi, Pezzelle, Baroni, Boleda, and Fern{\'a}ndez}]{lambada}
+Denis Paperno, Germ{\'a}n Kruszewski, Angeliki Lazaridou, Ngoc-Quan Pham, Raffaella Bernardi, Sandro Pezzelle, Marco Baroni, Gemma Boleda, and Raquel Fern{\'a}ndez. 2016.
+\newblock The {LAMBADA} dataset: Word prediction requiring a broad discourse context.
+\newblock In \emph{Proceedings of the 54th annual meeting of the association for computational linguistics (volume 1: Long papers)}, pages 1525--1534.
+
+\bibitem[{Peebles and Xie(2023)}]{dit}
+William Peebles and Saining Xie. 2023.
+\newblock Scalable diffusion models with transformers.
+\newblock In \emph{Proceedings of the IEEE/CVF international conference on computer vision}, pages 4195--4205.
+
+\bibitem[{Prabhudesai et~al.(2025)Prabhudesai, Wu, Zadeh, Fragkiadaki, and Pathak}]{prabhudesaidiffusion}
+Mihir Prabhudesai, Mengning Wu, Amir Zadeh, Katerina Fragkiadaki, and Deepak Pathak. 2025.
+\newblock Diffusion beats autoregressive in data-constrained settings.
+\newblock In \emph{The Thirty-ninth Annual Conference on Neural Information Processing Systems}.
+
+\bibitem[{Rein et~al.(2024)Rein, Hou, Stickland, Petty, Pang, Dirani, Michael, and Bowman}]{gpqa}
+David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe Pang, Julien Dirani, Julian Michael, and Samuel~R Bowman. 2024.
+\newblock Gpqa: A graduate-level google-proof q\&a benchmark.
+\newblock In \emph{First Conference on Language Modeling}.
+
+\bibitem[{Sahoo et~al.(2024)Sahoo, Arriola, Schiff, Gokaslan, Marroquin, Chiu, Rush, and Kuleshov}]{sahoo2024simple}
+Subham Sahoo, Marianne Arriola, Yair Schiff, Aaron Gokaslan, Edgar Marroquin, Justin Chiu, Alexander Rush, and Volodymyr Kuleshov. 2024.
+\newblock Simple and effective masked diffusion language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 37:130136--130184.
+
+\bibitem[{Sap et~al.(2019)Sap, Rashkin, Chen, Le~Bras, and Choi}]{siqa}
+Maarten Sap, Hannah Rashkin, Derek Chen, Ronan Le~Bras, and Yejin Choi. 2019.
+\newblock Social iqa: Commonsense reasoning about social interactions.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}, pages 4463--4473.
+
+\bibitem[{Soboleva et~al.(2023)Soboleva, Al-Khateeb, Myers, Steeves, Hestness, and Dey}]{slimpajama}
+Daria Soboleva, Faisal Al-Khateeb, Robert Myers, Jacob~R Steeves, Joel Hestness, and Nolan Dey. 2023.
+\newblock Slimpajama: A 627b token, cleaned and deduplicated version of redpajama.
+\newblock \emph{Cerebras blog post}.
+
+\bibitem[{Sohl-Dickstein et~al.(2015)Sohl-Dickstein, Weiss, Maheswaranathan, and Ganguli}]{sohl2015deep}
+Jascha Sohl-Dickstein, Eric Weiss, Niru Maheswaranathan, and Surya Ganguli. 2015.
+\newblock Deep unsupervised learning using nonequilibrium thermodynamics.
+\newblock In \emph{International conference on machine learning}, pages 2256--2265. pmlr.
+
+\bibitem[{Song et~al.(2021)Song, Sohl-Dickstein, Kingma, Kumar, Ermon, and Poole}]{song2020score}
+Yang Song, Jascha Sohl-Dickstein, Diederik~P Kingma, Abhishek Kumar, Stefano Ermon, and Ben Poole. 2021.
+\newblock Score-based generative modeling through stochastic differential equations.
+\newblock In \emph{International Conference on Learning Representations}.
+
+\bibitem[{Song et~al.(2025)Song, Zhang, Luo, Gao, Xia, Luo, Li, Yang, Yu, Qu et~al.}]{seeddiffusion}
+Yuxuan Song, Zheng Zhang, Cheng Luo, Pengyang Gao, Fan Xia, Hao Luo, Zheng Li, Yuehang Yang, Hongli Yu, Xingwei Qu, and 1 others. 2025.
+\newblock Seed diffusion: A large-scale diffusion language model with high-speed inference.
+\newblock \emph{arXiv preprint arXiv:2508.02193}.
+
+\bibitem[{Strudel et~al.(2022)Strudel, Tallec, Altch{\'e}, Du, Ganin, Mensch, Grathwohl, Savinov, Dieleman, Sifre et~al.}]{strudel2022self}
+Robin Strudel, Corentin Tallec, Florent Altch{\'e}, Yilun Du, Yaroslav Ganin, Arthur Mensch, Will Grathwohl, Nikolay Savinov, Sander Dieleman, Laurent Sifre, and 1 others. 2022.
+\newblock Self-conditioned embedding diffusion for text generation.
+\newblock \emph{arXiv preprint arXiv:2211.04236}.
+
+\bibitem[{Tian et~al.(2025)Tian, Liang, Sun, Zhang, Yang, Shu, Fang, Guo, Han, Xu et~al.}]{nbdiff}
+Yuchuan Tian, Yuchen Liang, Jiacheng Sun, Shuo Zhang, Guangwen Yang, Yingte Shu, Sibo Fang, Tianyu Guo, Kai Han, Chao Xu, and 1 others. 2025.
+\newblock From next-token to next-block: A principled adaptation path for diffusion llms.
+\newblock \emph{arXiv preprint arXiv:2512.06776}.
+
+\bibitem[{Wu et~al.(2025{\natexlab{a}})Wu, Zhang, Xue, Diao, Fu, Liu, Molchanov, Luo, Han, and Xie}]{fastdllmv2}
+Chengyue Wu, Hao Zhang, Shuchen Xue, Shizhe Diao, Yonggan Fu, Zhijian Liu, Pavlo Molchanov, Ping Luo, Song Han, and Enze Xie. 2025{\natexlab{a}}.
+\newblock Fast-dllm v2: Efficient block-diffusion llm.
+\newblock \emph{arXiv preprint arXiv:2509.26328}.
+
+\bibitem[{Wu et~al.(2025{\natexlab{b}})Wu, Zhang, Xue, Liu, Diao, Zhu, Luo, Han, and Xie}]{wu2025fast}
+Chengyue Wu, Hao Zhang, Shuchen Xue, Zhijian Liu, Shizhe Diao, Ligeng Zhu, Ping Luo, Song Han, and Enze Xie. 2025{\natexlab{b}}.
+\newblock Fast-dllm: Training-free acceleration of diffusion llm by enabling kv cache and parallel decoding.
+\newblock \emph{arXiv preprint arXiv:2505.22618}.
+
+\bibitem[{Ye et~al.(2025)Ye, Xie, Zheng, Gao, Wu, Jiang, Li, and Kong}]{dream}
+Jiacheng Ye, Zhihui Xie, Lin Zheng, Jiahui Gao, Zirui Wu, Xin Jiang, Zhenguo Li, and Lingpeng Kong. 2025.
+\newblock Dream 7b: Diffusion large language models.
+\newblock \emph{arXiv preprint arXiv:2508.15487}.
+
+\bibitem[{Zellers et~al.(2019)Zellers, Holtzman, Bisk, Farhadi, and Choi}]{hellaswag}
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. 2019.
+\newblock Hellaswag: Can a machine really finish your sentence?
+\newblock \emph{arXiv preprint arXiv:1905.07830}.
+
+\end{thebibliography}
