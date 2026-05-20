@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex acl_latex"] 1779089894.70016 "acl_latex.aux" "acl_latex.bbl" "acl_latex" 1779089895.69644 0
+["bibtex acl_latex"] 1779200938.9064 "acl_latex.aux" "acl_latex.bbl" "acl_latex" 1779200940.02603 0
   "./acl_natbib.bst" 1779061050 45186 3d1af46d62cc9172ef6e42b56c1cd613 ""
   "./custom.bib" 1779061050 22004 0b9af555b8845e29bf96e27471aef81d ""
-  "acl_latex.aux" 1779089895.51844 27964 ed7b36f51d96e123dfadf52783230ea9 "pdflatex"
+  "acl_latex.aux" 1779200939.79965 28299 1479169ad2149235ce444d3c07910124 "pdflatex"
   (generated)
   "acl_latex.bbl"
   "acl_latex.blg"
   (rewritten before read)
-["pdflatex"] 1779089894.72609 "/Users/thonypan/Documents/Lab/Pubs/2026 EMNLP/MMT_ARR_May/latex/acl_latex.tex" "acl_latex.pdf" "acl_latex" 1779089895.69667 0
-  "/Users/thonypan/Documents/Lab/Pubs/2026 EMNLP/MMT_ARR_May/latex/acl_latex.tex" 1779061050 2791 9357ee073dce3d1fa202488f2414faf8 ""
+["pdflatex"] 1779200939.11631 "/Users/thonypan/Documents/Lab/Pubs/2026 EMNLP/MMT_ARR_May/latex/acl_latex.tex" "acl_latex.pdf" "acl_latex" 1779200940.02698 0
+  "/Users/thonypan/Documents/Lab/Pubs/2026 EMNLP/MMT_ARR_May/latex/acl_latex.tex" 1779175702.96307 2856 2db5e3996c56b896c78fdd23a48ade54 ""
   "/Users/thonypan/Library/texlive/2026basic/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.657pk" 1779088887.01837 7808 a9ed81f845b31eeb10a8b3255ce55eaf ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc" 1558214095 7631 5169ff1acd97ff1c4ab83563c99f96f4 ""
@@ -171,6 +171,7 @@
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msa.cfg" 1772226603 5929 2b35ae0f0fb46984dfffa2bc9d09de5c ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-msb.cfg" 1772226603 5594 992ef5c3f8fd1168bb7101a957333065 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/microtype/mt-ptm.cfg" 1772226603 12427 a6802929d6bd2a4ba6d4f5db602da2b4 ""
+  "/usr/local/texlive/2026basic/texmf-dist/tex/latex/multirow/multirow.sty" 1731446765 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/natbib/natbib.sty" 1291685959 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/pifont.sty" 1586716065 2283 62e73848f29fd8cd37fb7974c7cf2221 ""
   "/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1137110629 774 61d7da1e9f9e74989b196d147e623736 ""
@@ -190,21 +191,22 @@
   "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1779086937 2966190 9a0e649989e2835285800860d62c458c ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
   "acl.sty" 1779061050 11615 e2c027f483aa40e577ed34264c8b0655 ""
-  "acl_latex.aux" 1779089895.51844 27964 ed7b36f51d96e123dfadf52783230ea9 "pdflatex"
-  "acl_latex.bbl" 1779089894.72339 21528 4aee84be0dc9e339071913f4a3a9357b "bibtex acl_latex"
-  "acl_latex.out" 1779089895.52035 2595 918f29f66253c74e5b62c5d769520fb1 "pdflatex"
-  "acl_latex.tex" 1779061050 2791 9357ee073dce3d1fa202488f2414faf8 ""
+  "acl_latex.aux" 1779200939.79965 28299 1479169ad2149235ce444d3c07910124 "pdflatex"
+  "acl_latex.bbl" 1779200939.11061 21528 4aee84be0dc9e339071913f4a3a9357b "bibtex acl_latex"
+  "acl_latex.out" 1779200939.80157 2595 918f29f66253c74e5b62c5d769520fb1 "pdflatex"
+  "acl_latex.tex" 1779175702.96307 2856 2db5e3996c56b896c78fdd23a48ade54 ""
   "algorithm.sty" 1779061050 2223 ada3eaa0c1bd465a639433dfafc2fc4e ""
   "algorithmic.sty" 1779061050 7414 ce084815cf0aab483787dbc4bf2ace9c ""
   "figures/new_pattern.pdf" 1779061050 46706 6574e2d868b5152ea3173439a9870cd0 ""
   "figures/original_pattern.pdf" 1779061050 33941 c6597170abdb2eb53aac6f15b4a493e0 ""
   "figures/pareto_main.pdf" 1779061050 20210 b5f6d55cd52e55f95bc55a835ce4aeb2 ""
-  "sections/abstract.tex" 1779061050 1280 ffa5cca40a6e2e3aeac371a14035aa8a ""
+  "sections/abstract.tex" 1779160952.7337 1322 ba36bf0aeaafa9ff330f15759bc8e30f ""
   "sections/appendix.tex" 1779061050 2807 b9e2c395480cf2dd3e9c83308adaf95a ""
+  "sections/appendix_detailed_results.tex" 1779182798.20058 3318 ad652c5501e782a5842db7db9eee45c8 ""
   "sections/conclusion.tex" 1779061050 21 5263826852d7c88eadf74b948137ff83 ""
-  "sections/experiment.tex" 1779061050 9249 3951861762c326d287aa5df090367958 ""
+  "sections/experiment.tex" 1779182770.37871 8170 fcaf80503640244a788557bfa15af6e5 ""
   "sections/introduction.tex" 1779061050 5355 932113f98fdf286a2e92ae2356a02e66 ""
-  "sections/method.tex" 1779061050 13455 857c5eaa3c3f4133fac39c6a52b866b2 ""
+  "sections/method.tex" 1779200906.73997 13573 a4cad0dc40b1924d37e6e62b2e6786a4 ""
   "sections/related.tex" 1779061050 3616 da0307df42d8b2c0897debebcb7d3f80 ""
   (generated)
   "acl_latex.aux"

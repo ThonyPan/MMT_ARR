@@ -1,8 +1,8 @@
 \begin{abstract}
   Block Diffusion Language Models generate multiple blocks of text sequentially, while tokens within each block are denoised in parallel, enabling efficient parallel decoding.
-  However, their training suffers from low computational utilization: each sample is duplicated into a clean context and a masked copy, yet only the masked portion contributes to the training loss, resulting in merely 50\% effective computation.
-  In this paper, we propose \textbf{\NAME{} with context sharing} (\textbf{\name{}}), a simple yet effective training paradigm that significantly improves computational efficiency through context sharing.
+  However, their training suffers from low computational utilization: each sample is duplicated into a clean context and a masked copy, yet only the masked portion contributes to the training loss, resulting in merely 50\% compute utilization.
+  In this paper, we propose \textbf{\NAME{}} (\textbf{\name{}}), a simple yet effective training paradigm that significantly improves computational efficiency through context sharing.
   Our key idea is to generate $K$ different mask patterns for the same clean text and process them together in a single forward pass via a sparse attention mechanism, where each masked segment attends to the shared clean context while remaining isolated from other segments.
-  Notably, we observe that seeing each sample multiple times with different masks can match or surpass the quality of seeing more unique samples.
-  We find $K{=}4$ to be optimal, which raises the effective utilization from 50\% to 80\% and yields a $1.6\times$ training speedup with no degradation in perplexity (TODO) or downstream performance.
+  Notably, our proposed approach yields better performance under equivalent training time constraints, despite being exposed to fewer unique training instances.
+  This reveals a compelling trade-off between data uniqueness and training efficiency in block diffusion models, demonstrating that the rich training signals from diverse mask samplings can effectively compensate for reduced exposure to unique data.
 \end{abstract}

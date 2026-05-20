@@ -130,6 +130,8 @@ INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsopn.sty
@@ -364,12 +366,12 @@ INPUT ./acl_latex.bbl
 INPUT ./acl_latex.bbl
 INPUT acl_latex.bbl
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 INPUT /usr/local/texlive/2026basic/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/inconsolata/t1-zi4r-0.tfm
+INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc
 INPUT ./sections/appendix.tex
 INPUT ./sections/appendix.tex
@@ -386,6 +388,11 @@ INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2026basic/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./sections/appendix_detailed_results.tex
+INPUT ./sections/appendix_detailed_results.tex
+INPUT ./sections/appendix_detailed_results.tex
+INPUT ./sections/appendix_detailed_results.tex
+INPUT sections/appendix_detailed_results.tex
 INPUT acl_latex.aux
 INPUT ./acl_latex.out
 INPUT ./acl_latex.out

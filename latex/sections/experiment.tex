@@ -24,29 +24,21 @@ All benchmarks are evaluated in the zero-shot setting except that MMLU is evalua
 % TODO 表格里评测集加粗一下
 \begin{table*}[t]
 \centering
-\caption{Comparison of different $K$ settings of \name{} in AR to Diffusion setting.}
-\label{tab:ar2diff_main_results}
-\scalebox{0.90}{
-\begin{tabular}{l|ccccccc|c}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l|ccccccc|cc}
 \toprule
-Method & GSM8K & MATH & MMLU & GPQA & IFEval & MBPP & HumanEval & Avg. \\ % & Speedup
+Method & GSM8K & MATH & MMLU & GPQA & IFEval & MBPP & HumanEval & Avg. & Time (h) \\ % & Speedup
 \midrule
-$K$=1, 12000 steps & 64.54$_{\pm 1.48}$ & 29.74$_{\pm 0.14}$ & 49.51$_{\pm 1.48}$ & 26.27$_{\pm 0.91}$ & 41.47$_{\pm 1.07}$ & 46.95$_{\pm 2.87}$ & 45.32$_{\pm 1.54}$ & 43.40$_{\pm 0.43}$ \\ % & 1.00$\times$
+Fast-dLLM v2 & 62.0 & 38.1 & 55.1 & 27.7 & 47.0 & 50.0 & 43.9 & 46.3 & - \\
 \midrule
-$K$=2, 6000 steps & 63.43$_{\pm 1.75}$ & 30.96$_{\pm 0.19}$ & 50.73$_{\pm 0.77}$ & 26.49$_{\pm 0.46}$ & 41.03$_{\pm 1.39}$ & 50.06$_{\pm 1.25}$ & 40.45$_{\pm 3.46}$ & 43.31$_{\pm 0.25}$ \\ % & 1.33$\times$
-$K$=1, 6000 steps & 61.99$_{\pm 0.58}$ & 28.29$_{\pm 0.68}$ & 51.17$_{\pm 0.51}$ & 26.56$_{\pm 0.00}$ & 42.70$_{\pm 1.82}$ & 46.95$_{\pm 0.23}$ & 38.41$_{\pm 2.20}$ & 42.30$_{\pm 0.25}$ \\ % & 2.00$\times$
-\midrule
-$K$=4, 3000 steps & 62.25$_{\pm 0.89}$ & 29.32$_{\pm 0.47}$ & 51.60$_{\pm 0.25}$ & 26.86$_{\pm 0.52}$ & 42.70$_{\pm 1.30}$ & 48.12$_{\pm 0.60}$ & 42.68$_{\pm 1.61}$ & 43.36$_{\pm 0.13}$ \\ % & 1.60$\times$
-$K$=1, 3000 steps & 59.21$_{\pm 0.72}$ & 25.85$_{\pm 0.74}$ & 52.39$_{\pm 0.22}$ & 26.41$_{\pm 0.68}$ & 41.90$_{\pm 0.93}$ & 46.95$_{\pm 2.38}$ & 35.17$_{\pm 1.96}$ & 41.13$_{\pm 0.07}$ \\ % & 4.00$\times$
-\midrule
-$K$=6, 2000 steps & 62.37$_{\pm 0.37}$ & 28.01$_{\pm 0.64}$ & 52.24$_{\pm 0.29}$ & 27.09$_{\pm 0.65}$ & 40.73$_{\pm 1.76}$ & 48.12$_{\pm 0.81}$ & 40.85$_{\pm 2.11}$ & 42.78$_{\pm 0.29}$ \\ % & 1.71$\times$
-$K$=1, 2000 steps & 58.45$_{\pm 0.08}$ & 24.76$_{\pm 0.58}$ & 52.43$_{\pm 0.22}$ & 26.56$_{\pm 0.23}$ & 41.16$_{\pm 2.62}$ & 43.45$_{\pm 3.14}$ & 33.95$_{\pm 1.27}$ & 40.11$_{\pm 0.75}$ \\ % & 6.00$\times$
-\midrule
-$K$=8, 1500 steps & 61.46$_{\pm 1.03}$ & 27.83$_{\pm 0.69}$ & 52.56$_{\pm 0.38}$ & 26.86$_{\pm 0.68}$ & 41.71$_{\pm 3.62}$ & 47.60$_{\pm 0.81}$ & 38.62$_{\pm 2.14}$ & 42.38$_{\pm 0.45}$ \\ % & 1.78$\times$
-$K$=1, 1500 steps & 56.03$_{\pm 0.35}$ & 23.97$_{\pm 0.41}$ & 52.74$_{\pm 0.13}$ & 27.38$_{\pm 0.13}$ & 39.99$_{\pm 2.78}$ & 43.58$_{\pm 1.17}$ & 34.96$_{\pm 2.14}$ & 39.81$_{\pm 0.74}$ \\ % & 8.00$\times$
+\name{}, $K$=1 & 69.70$_{\pm 0.42}$ & 41.02$_{\pm 0.27}$ & 51.69$_{\pm 0.12}$ & 25.22$_{\pm 0.43}$ & 62.36$_{\pm 0.76}$ & 47.43$_{\pm 0.67}$ & 43.60$_{\pm 0.77}$ & 48.72 & 29.67 \\
+\name{}, $K$=2 & 70.46$_{\pm 0.29}$ & 41.54$_{\pm 0.24}$ & 52.70$_{\pm 0.05}$ & 23.41$_{\pm 0.40}$ & 60.56$_{\pm 0.53}$ & 49.88$_{\pm 0.79}$ & 44.08$_{\pm 1.12}$ & 48.95 & 22.42 \\
+\name{}, $K$=4 & 69.87$_{\pm 0.65}$ & 40.87$_{\pm 0.34}$ & 51.61$_{\pm 0.05}$ & 27.46$_{\pm 0.51}$ & 59.85$_{\pm 0.85}$ & 44.98$_{\pm 0.74}$ & 43.11$_{\pm 1.58}$ & 48.25 & 18.80 \\
 \bottomrule
 \end{tabular}
 }
+\caption{Comparison of different $K$ settings of \name{} in AR to Diffusion setting. The results of Fast-dLLM v2 are cited from \citet{fastdllmv2}, where we retain their reported single decimal place precision.}
+\label{tab:ar2diff_main_results}
 \end{table*}
 
 \begin{figure}[t]
@@ -60,21 +52,21 @@ $K$=1, 1500 steps & 56.03$_{\pm 0.35}$ & 23.97$_{\pm 0.41}$ & 52.74$_{\pm 0.13}$
 
 \begin{table*}[t]
 \centering
-\caption{Ablation study of complementary masking of \name{} in AR to Diffusion setting.}
-\label{tab:ar2diff_complementary_ablation}
 \scalebox{0.84}{
 \begin{tabular}{lc|ccccccc|c}
 \toprule
 Method & Complementary & GSM8K & MATH & MMLU & GPQA & IFEval & MBPP & HumanEval & Avg.\\
 \midrule
-$K$=2 & \cmark & 63.43$_{\pm 1.75}$ & 30.96$_{\pm 0.19}$ & 50.73$_{\pm 0.77}$ & 26.49$_{\pm 0.46}$ & 41.03$_{\pm 1.39}$ & 50.06$_{\pm 1.25}$ & 40.45$_{\pm 3.46}$ & 43.31$_{\pm 0.25}$ \\
-$K$=2 & \xmark & 63.36$_{\pm 1.56}$ & 30.10$_{\pm 0.30}$ & 50.91$_{\pm 0.15}$ & 26.41$_{\pm 0.78}$ & 42.82$_{\pm 1.08}$ & 49.42$_{\pm 1.78}$ & 43.29$_{\pm 2.20}$ & 43.76$_{\pm 0.10}$ \\
+\name{}, $K$=2 & \cmark & 63.43$_{\pm 1.75}$ & 30.96$_{\pm 0.19}$ & 50.73$_{\pm 0.77}$ & 26.49$_{\pm 0.46}$ & 41.03$_{\pm 1.39}$ & 50.06$_{\pm 1.25}$ & 40.45$_{\pm 3.46}$ & 43.31$_{\pm 0.25}$ \\
+\name{}, $K$=2 & \xmark & 63.36$_{\pm 1.56}$ & 30.10$_{\pm 0.30}$ & 50.91$_{\pm 0.15}$ & 26.41$_{\pm 0.78}$ & 42.82$_{\pm 1.08}$ & 49.42$_{\pm 1.78}$ & 43.29$_{\pm 2.20}$ & 43.76$_{\pm 0.10}$ \\
 \midrule
-$K$=4 & \cmark & 62.25$_{\pm 0.89}$ & 29.32$_{\pm 0.47}$ & 51.60$_{\pm 0.25}$ & 26.86$_{\pm 0.52}$ & 42.70$_{\pm 1.30}$ & 48.12$_{\pm 0.60}$ & 42.68$_{\pm 1.61}$ & 43.36$_{\pm 0.13}$ \\
-$K$=4 & \xmark & 61.58$_{\pm 1.67}$ & 29.11$_{\pm 0.52}$ & 52.21$_{\pm 0.23}$ & 26.12$_{\pm 1.02}$ & 43.90$_{\pm 1.63}$ & 50.59$_{\pm 1.59}$ & 41.16$_{\pm 2.71}$ & 43.52$_{\pm 0.67}$ \\
+\name{}, $K$=4 & \cmark & 62.25$_{\pm 0.89}$ & 29.32$_{\pm 0.47}$ & 51.60$_{\pm 0.25}$ & 26.86$_{\pm 0.52}$ & 42.70$_{\pm 1.30}$ & 48.12$_{\pm 0.60}$ & 42.68$_{\pm 1.61}$ & 43.36$_{\pm 0.13}$ \\
+\name{}, $K$=4 & \xmark & 61.58$_{\pm 1.67}$ & 29.11$_{\pm 0.52}$ & 52.21$_{\pm 0.23}$ & 26.12$_{\pm 1.02}$ & 43.90$_{\pm 1.63}$ & 50.59$_{\pm 1.59}$ & 41.16$_{\pm 2.71}$ & 43.52$_{\pm 0.67}$ \\
 \bottomrule
 \end{tabular}
 }
+\caption{Ablation study of complementary masking of \name{} in AR to Diffusion setting.}
+\label{tab:ar2diff_complementary_ablation}
 \end{table*}
 
 \paragraph{Gradient Analysis}
